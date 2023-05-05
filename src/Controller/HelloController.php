@@ -25,4 +25,10 @@ class HelloController
     {
         return new Response('Olá, mamifero!');
     }
+
+    #[Route('/invertebrados')]
+    public function invertebrados(): Response
+    {
+        return new Response('Olá, invertebrados!');
+    }
 }
